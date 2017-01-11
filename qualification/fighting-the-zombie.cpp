@@ -1,13 +1,6 @@
 #include <algorithm>
 #include <cstdio>
 #include <cstring>
-#include <iostream>
-#include <map>
-#include <queue>
-#include <set>
-#include <string>
-#include <utility>
-#include <vector>
 
 #define MAXS 10
 #define MAXX 20
@@ -15,7 +8,6 @@
 
 using namespace std;
 
-typedef long long ll;
 typedef long double ld;
 
 ld dp[MAXX + 1][MAXX * MAXY + 1];

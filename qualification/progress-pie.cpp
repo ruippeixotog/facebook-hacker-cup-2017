@@ -1,8 +1,7 @@
-#include <algorithm>
 #include <cstdio>
-#include <cstring>
-#include <iostream>
 #include <cmath>
+
+#define R 50
 
 using namespace std;
 
@@ -11,12 +10,12 @@ int main() {
   for(int tc = 1; tc <= t; tc++) {
     int p, x, y; scanf("%d %d %d\n", &p, &x, &y);
 
-    int dist2 = (x - 50) * (x - 50) + (y - 50) * (y - 50);
-    double angle = atan2(x - 50, y - 50) / (2 * M_PI);
+    int dist2 = (x - R) * (x - R) + (y - R) * (y - R);
+    double angle = atan2(x - R, y - R) / (2 * M_PI);
     if(angle < 0) angle++;
 
     printf("Case #%d: %s\n", tc,
-           dist2 > 50 * 50 || angle * 100 > p ? "white" : "black");
+           dist2 > R * R || angle * 100 > p ? "white" : "black");
   }
   return 0;
 }
