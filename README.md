@@ -31,7 +31,7 @@ The following is the list of the problems solved. Each problem identifier is spe
 ### Round 1
 
 * ✓ [10: Pie Progress][round11] (`pie-progress`)
-* ✗ [25: Manic Moving][round13] (`manic-moving`)
+* ✓ [25: Manic Moving][round13] (`manic-moving`)
 
 [1]: https://www.facebook.com/hackercup
 [qual1]: https://www.facebook.com/hackercup/problem/1254819954559001/
