@@ -28,7 +28,14 @@ The following is the list of the problems solved. Each problem identifier is spe
 * ✓ [30: Lazy Loading][qual2] (`lazy-loading`)
 * ✓ [45: Fighting the Zombie][qual3] (`fighting-the-zombie`)
 
+### Round 1
+
+* ✓ [10: Pie Progress][round11] (`pie-progress`)
+* ✗ [25: Manic Moving][round13] (`manic-moving`)
+
 [1]: https://www.facebook.com/hackercup
 [qual1]: https://www.facebook.com/hackercup/problem/1254819954559001/
 [qual2]: https://www.facebook.com/hackercup/problem/169401886867367/
 [qual3]: https://www.facebook.com/hackercup/problem/326053454264498/
+[round11]: https://www.facebook.com/hackercup/problem/1800890323482794/
+[round13]: https://www.facebook.com/hackercup/problem/300438463685411/
