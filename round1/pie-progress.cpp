@@ -1,4 +1,5 @@
 #include <algorithm>
+#include <cstring>
 
 #define MAXN 300
 #define MAXM 300
