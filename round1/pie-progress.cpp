@@ -1,22 +1,9 @@
 #include <algorithm>
-#include <cstdio>
-#include <cstring>
-#include <iostream>
-#include <map>
-#include <queue>
-#include <set>
-#include <string>
-#include <utility>
-#include <vector>
 
 #define MAXN 300
 #define MAXM 300
-#define INF 1000000000
 
 using namespace std;
-
-typedef long long ll;
-typedef long double ld;
 
 int c[MAXN][MAXM];
 
@@ -30,7 +17,11 @@ int main() {
       for(int j = 0; j < m; j++) {
         scanf("%d", &c[i][j]);
       }
+
       sort(c[i], c[i] + m);
+      for(int j = 1; j < m; j++) {
+        c[i][j] += c[i][j - 1];
+      }
     }
 
     memset(dp, 0x3f, sizeof(dp));
@@ -38,13 +29,12 @@ int main() {
 
     for(int i = 0; i < n; i++) {
       for(int j = i; j <= n; j++) {
-        int cost = 0;
         for(int k = 0; k <= m && j + k <= n; k++) {
+          int cost = k == 0 ? 0 : c[i][k - 1];
+
           dp[i + 1][j + k] = min(
             dp[i + 1][j + k],
             dp[i][j] + cost + k * k);
-
-          if(k < m) cost += c[i][k];
         }
       }
     }
