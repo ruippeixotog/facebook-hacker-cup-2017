@@ -32,6 +32,7 @@ The following is the list of the problems solved. Each problem identifier is spe
 
 * ✓ [10: Pie Progress][round11] (`pie-progress`)
 * ✓ [25: Manic Moving][round13] (`manic-moving`)
+* ✓ [40: Beach Umbrellas][round14] (`beach-umbrellas`)
 
 [1]: https://www.facebook.com/hackercup
 [qual1]: https://www.facebook.com/hackercup/problem/1254819954559001/
@@ -39,3 +40,4 @@ The following is the list of the problems solved. Each problem identifier is spe
 [qual3]: https://www.facebook.com/hackercup/problem/326053454264498/
 [round11]: https://www.facebook.com/hackercup/problem/1800890323482794/
 [round13]: https://www.facebook.com/hackercup/problem/300438463685411/
+[round14]: https://www.facebook.com/hackercup/problem/1760870734198100/
